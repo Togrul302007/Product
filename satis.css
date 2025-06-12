@@ -6,7 +6,11 @@ body{
     background: linear-gradient(to right,rgb(0, 0, 54),rgb(3, 3, 102));
     transition: .2s;
     transition-timing-function: ease;
-    
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
 }
 /* html{
     transition: .2s;
@@ -580,6 +584,9 @@ aside>h1{
     .aside h1{
         font-size: 30px;
         bottom: 140px;
+    }
+    .p_2{
+        transform: scale(0.9);
     }
     .p_2 p{
         transform: scale(1.3);
