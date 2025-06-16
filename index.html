@@ -227,6 +227,16 @@
     </footer>
 
 
-    <script src="satis.js"></script>
+    <script src="satis.js">
+        
+  const hamburger = document.getElementById('hamburger');
+  const navbar = document.querySelector('ul.navbar');
+
+  hamburger.addEventListener('click', () => {
+    navbar.classList.toggle('show');
+  });
+
+
+    </script>
 </body>
 </html>
